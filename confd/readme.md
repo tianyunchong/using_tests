@@ -7,6 +7,7 @@
 3. 预先建立gcv3配置目录结构
 3. 转移confd配置模板和配置文件到配置位置
 4. 启动confd,生成配置目录文件
+
 	confd -onetime -backend etcd -node http://127.0.0.1:2379
 
 	confd -interval=60 -backend etcd -node http://127.0.0.1:2379 &
