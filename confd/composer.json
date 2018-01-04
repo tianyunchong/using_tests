@@ -1,0 +1,5 @@
+{
+    "require": {
+        "activecollab/etcd": "^1.0"
+    }
+}

@@ -1,0 +1,6 @@
+[template]
+src="gcconfig_gcv3_dev_sys.tmpl"
+dest="/tmp/confd/gcv3/dev/sys.ini"
+keys=[
+	"/gcv3/dev/sys",
+]
