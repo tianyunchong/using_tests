@@ -2,6 +2,7 @@
 利用confd生成gcv3到指定机器生成配置目录文件
 
 1. php脚本写入配置数据到etcd
+
 	https://github.com/activecollab/etcd
 2. 建立confd配置模板和配置文件
 3. 预先建立gcv3配置目录结构
