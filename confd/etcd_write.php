@@ -29,7 +29,7 @@ $config = array(
     ),
 );
 $client = new EtcdClient('http://' . $etcdConfig["host"] . ':' . $etcdConfig["port"]);
-//写入下Key值
+//写入下Key值,此行代码本打算写入在confd的模板中语法嵌套组合生成配置文件，但是目前不支持，所以没啥用
 $client->set("/gcv3/dev/sys/conf_keys", "memcommon:memtxy:specialpro");
 //将配置信息写入etcd
 // foreach ($config as $key => $value) {
